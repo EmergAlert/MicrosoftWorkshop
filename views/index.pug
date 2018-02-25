@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+  p #{description}
+
+  form(method='POST' action='/results')
+    div.form-group
+      input#url.form-control(type='text', placeholder='Enter photo url here' name='url')
+    div.form-group
+      button.btn.btn-primary(type='submit') Get Results

@@ -1,0 +1,20 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+input {
+  width: 300px;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+.resultImg {
+  width: 500px;
+}

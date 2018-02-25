@@ -1,0 +1,13 @@
+// This funtion goes in the controllers/results.js file under the "helper functions" comment
+
+function parseResponse (predictions) {
+  // Loop through the array to find the top score
+  var top = predictions[0]
+  predictions.forEach(p => {
+    if (p.Probability > top.Probability) {
+      top = p
+    }
+  })
+
+  return top
+}
